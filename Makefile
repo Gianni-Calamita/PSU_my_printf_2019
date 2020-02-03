@@ -44,5 +44,5 @@ gcc:
 	gcc $(SRC) main.c -o test_printf
 	./test_printf
 test_run :
-	gcc -o unit_test $(SRC) ../../include/unit_test.c -lcriterion
+	gcc -o unit_test $(SRC) unit_test.c -lcriterion
 	./unit_test
